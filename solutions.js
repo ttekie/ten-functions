@@ -34,29 +34,38 @@ function not(value) {
 }
 
 function addOne(value) {
-
+    if(!(isNaN(value))) {
+        return parseFloat(value) + 1;
+    } else {
+        return NaN;
+    }
 }
 
 function isEven(value) {
-
+    return value % 2 === 0;
 }
 
-function isIdentical(value) {
 
+function isIdentical(value1, value2) {
+    return value1 === value2;
 }
 
-function isEqual() {
-
+function isEqual(value1, value2) {
+    return value1 == value2;
 }
 
-function or() {
-
+function or(value1, value2) {
+    return value1 || value2;
 }
 
-function and() {
-
+function and(value1, value2) {
+    return value1 && value2;
 }
 
-function concat() {
-
+function concat(value1, value2) {
+    if(typeof value1 === "string" && typeof value2 === "string") {
+        return value1 + value2;
+    } else {
+        return value1.toString() + value2.toString();
+    }
 }

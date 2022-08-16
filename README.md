@@ -73,18 +73,18 @@
         not(Infinity)               // false
         not(123)                    // false
 
-4. Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
+   4. Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
 
-        addOne(0)                    // 1
-        addOne(2)                    // 3
-        addOne(-5)                   // -4
-        addOne(5.789)                // 6.789
-        addOne(Infinity)             // Infinity
-        addOne("2")                  // 3
-        addOne("0")                  // 1
-        addOne("banana")             // NaN
-        addOne(true)                 // NaN
-        addOne(NaN)                  // NaN
+           addOne(0)                    // 1
+           addOne(2)                    // 3
+           addOne(-5)                   // -4
+           addOne(5.789)                // 6.789
+           addOne(Infinity)             // Infinity
+           addOne("2")                  // 3
+           addOne("0")                  // 1
+           addOne("banana")             // NaN
+           addOne(true)                 // NaN
+           addOne(NaN)                  // NaN
 
 
 5. Define a function named `isEven` that takes in a single input. If the input is an even number or a string containing an even number, return `true`. Any other input should return false for the output.
