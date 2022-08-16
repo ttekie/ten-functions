@@ -30,7 +30,7 @@ function isFalse(value) {
 }
 
 function not(value) {
-
+    return !(Boolean(value));
 }
 
 function addOne(value) {
